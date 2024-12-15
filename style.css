@@ -1,0 +1,98 @@
+body{
+    background-color: #002244;
+}
+
+.container{
+    position: relative;
+}
+
+#fondogris{
+    background-color: #13274F;
+    border-bottom: 2px solid #121212;
+}
+
+#fondo{
+    margin-top: 25px;
+    background-color: #1F305E;
+    border-color: #31D2F2;
+    color: white
+}
+
+#fondo:hover{
+    background-color: #4864A1 ;
+}
+
+.card{
+    width: 320px;
+    height: 450px;
+    border-radius: 40px;
+    transition: transform 0.3s ease;
+    transform-origin: center;
+    position: relative;
+    font-size: 16px;
+    line-height: 1; 
+}
+
+#medio{
+    height: 550px;
+    background-color: #1F305E;
+    border-color: #31D2F2;
+    color: white;
+    font-size: 16px; 
+    line-height: 1; 
+
+}
+
+#medio:hover{
+    background-color: #4864A1;
+}
+
+#boton{
+    width: 270px;
+    border-radius: 100px;
+    color: black;
+    background-color:white;
+    margin-bottom: 5%;
+}
+
+#boton:hover{
+    background-color: #e0e0e073;
+}
+
+#boton-desactivado{
+    width: 270px;
+    border-radius: 100px;
+    color: rgba(53, 51, 51, 0.678);
+    background-color:grey;
+    margin-bottom: 5%;
+    cursor: not-allowed; /* el cursor esta bloqueado*/
+}
+
+
+#texto{
+    color: white;
+}
+
+.card:hover{
+    transform: scale(1.2);
+    z-index: 2;
+}
+
+#titulo{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#texto-descripcion{
+    color: white;
+    letter-spacing: 1px;
+}
+
+#cruz{
+    position:absolute;
+    color: white;
+    font-size: 20px;
+    top: 15px;
+    right: 20px;
+}
