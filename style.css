@@ -6,21 +6,11 @@ body{
     position: relative;
 }
 
-#fondogris{
+#back-titulo{
     background-color: #13274F;
     border-bottom: 2px solid #121212;
 }
 
-#fondo{
-    margin-top: 25px;
-    background-color: #1F305E;
-    border-color: #31D2F2;
-    color: white
-}
-
-#fondo:hover{
-    background-color: #4864A1 ;
-}
 
 .card{
     width: 320px;
@@ -31,20 +21,21 @@ body{
     position: relative;
     font-size: 16px;
     line-height: 1; 
-}
-
-#medio{
-    height: 550px;
+    margin-top: 35px;
     background-color: #1F305E;
     border-color: #31D2F2;
-    color: white;
-    font-size: 16px; 
-    line-height: 1; 
-
+    color: white
 }
 
-#medio:hover{
-    background-color: #4864A1;
+.card:hover{
+    transform: scale(1.2);
+    z-index: 2;
+    background-color: #4864A1 ;
+}
+
+#plus{
+    height: 550px;
+    margin-top: auto;
 }
 
 #boton{
@@ -68,14 +59,8 @@ body{
     cursor: not-allowed; /* el cursor esta bloqueado*/
 }
 
-
 #texto{
     color: white;
-}
-
-.card:hover{
-    transform: scale(1.2);
-    z-index: 2;
 }
 
 #titulo{
